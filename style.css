@@ -24,6 +24,7 @@ body{
 
 .navbar-brand img{
   height: 2rem;
+  visibility: hidden;
 }
 
 .navbar-nav li{
@@ -157,6 +158,10 @@ h3.heading{
 
 .fixed-background p{
   margin-top: 1.5rem;
+}
+
+.svg-inline--fa{
+  color: #1ebba3;
 }
 
 /*---Skills---*/
