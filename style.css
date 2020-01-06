@@ -104,7 +104,7 @@ body{
   background-color: #189582;
   color: white;
 }
-/*---Feature --->*/
+/*---education --->*/
 .jumbotron{
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
@@ -123,6 +123,16 @@ h3.heading{
   background-color: #1ebba3;
   margin: 0 auto 2rem;
 }
+.courses{
+  font-size: 1.5rem;
+
+}
+.school img{
+  width: 100%;
+  border-radius: 50%;
+  align-self: : left;
+  
+}
 
 .project svg.svg-inline--fa{
   color: #1ebba3;
@@ -139,10 +149,16 @@ h3.heading{
 
 }
 
-/*---Me---*/
+/*---work---*/
 .fixed{
   background-image: url(img/apple.png);
   z-index: -1;
+
+}
+.exp{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
 
 }
 
@@ -163,6 +179,25 @@ h3.heading{
 .svg-inline--fa{
   color: #1ebba3;
 }
+
+/*---projects---*/
+.card-header{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  border-color: dark;
+  padding: 0rem;
+  border-width: :medium;
+  outline: none;
+  margin: 0 0 0 0;
+  transition: 0.4s;
+}
+
+
+.card-body{
+  text-align: left;
+}
+
 
 /*---Skills---*/
 .skills img{
