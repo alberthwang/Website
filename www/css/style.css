@@ -44,7 +44,7 @@ body{
 /*--- Landing Page ---*/
 
 .home-inner{
-  background-image: url(img/computers.png);
+  background-image: url(../img/compsetup2.jpg);
 }
 .caption{
   width: 100%;
@@ -74,6 +74,7 @@ body{
   border-radius: 0;
   padding: .6rem 1.3rem;
   font-size: 1.1rem;
+  
 
 }
 
@@ -121,8 +122,9 @@ h3.heading{
   width: 3rem;
   height: .2rem;
   background-color: #1ebba3;
-  margin: 0 auto 2rem;
+  margin: -1rem auto 2rem;
 }
+
 .courses{
   font-size: 1.5rem;
 
@@ -151,14 +153,16 @@ h3.heading{
 
 /*---work---*/
 .fixed{
-  background-image: url(img/apple.png);
+  background-image: url(../img/coffee2.jpg);
   z-index: -1;
+
 
 }
 .exp{
   width: 75%;
   margin: 1.5rem auto;
   padding-top: 2rem;
+  padding-bottom: 4rem
 
 }
 
@@ -229,7 +233,7 @@ footer img{
   margin: 1.5rem 0;
 }
 footer a{
-  color: white;
+  color: black;
 }
 
 footer svg.svg-inline--fa{
