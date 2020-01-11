@@ -78,7 +78,7 @@ body{
 
 }
 
-/*============= COURSE SECTION =============*/
+/*============= About SECTION =============*/
 
 .narrow {
   width: 75%;
@@ -88,6 +88,12 @@ body{
 .narrow h1 {
     font-size: 2.4rem;
   }
+
+.narrow p{
+  text-align: left;
+  font-size: 1.3rem;
+}
+
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
@@ -126,13 +132,13 @@ h3.heading{
 }
 
 .courses{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 
 }
 .school img{
   width: 100%;
   border-radius: 50%;
-  align-self: : left;
+  align-self: left;
   
 }
 
@@ -146,7 +152,7 @@ h3.heading{
   padding-bottom: .4rem;
 }
 
-.project p{
+.card-body p{
   font-size: 1.1rem;
 
 }
