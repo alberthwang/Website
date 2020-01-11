@@ -42,9 +42,15 @@ body{
 }
 
 /*--- Landing Page ---*/
-
-.home-inner{
+.home-wrap{
   background-image: url(../img/compsetup2.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  min-width: 900px;
+  background-attachment: fixed;
+  background-position: 0 50%;
 }
 .caption{
   width: 100%;
@@ -55,6 +61,29 @@ body{
   color: white;
   text-transform: uppercase;
 }
+/* og code
+didnt work with ie, top picture wouldn't set
+.home-inner{
+  background-image: url(../img/compsetup2.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  min-width: 900px;
+  background-attachment: fixed;
+}
+.caption{
+  width: 100%;
+  max-width: : 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+
+}
+*/
+
 .caption h1{
   font-size: 3.8rem;
   font-weight: 700;
@@ -73,7 +102,7 @@ body{
   border-width: medium;
   border-radius: 0;
   padding: .6rem 1.3rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   
 
 }
@@ -160,6 +189,7 @@ h3.heading{
 /*---work---*/
 .fixed{
   background-image: url(../img/coffee2.jpg);
+ 
   z-index: -1;
 
 
@@ -232,14 +262,19 @@ footer{
   color: white;
   padding: 2rem 0 2rem;
   margin-top: 1rem;
+  margin-bottom: -3.5rem;
 }
 
 footer img{
-  height: 3rem;
-  margin: 1.5rem 0;
+  height: 3.5rem;
+  margin: 1rem 0;
 }
 footer a{
   color: black;
+}
+
+footer p{
+  font-size: 1.5rem;
 }
 
 footer svg.svg-inline--fa{
@@ -277,7 +312,6 @@ footer svg.svg-inline--fa:hover{
   max-width: 50%;
   display: block;
   margin: 0 auto;
-}
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
